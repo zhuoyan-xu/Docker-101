@@ -132,7 +132,9 @@ see link.
 
 ——————————
 
-### install package from bioconductor/bioconductor_docker:devel and create customized image
+### write Dockerfile to create image
+
+install package from [bioconductor/bioconductor_docker:devel](https://hub.docker.com/r/bioconductor/bioconductor_docker) and create customized image
 
 Explore bioconductor/bioconductor_docker:devel
 
@@ -161,3 +163,14 @@ docker build -t bioconductor_ST_zyxu:devel .
 ```
 
  
+
+Test it:
+
+```
+docker run --user $(id -u):$(id -g) --rm=true -it \
+
+ -v $(pwd):/scratch -w /scratch \
+
+ zhuoyanxu/bioconductor_st_zyxu:devel /bin/bash
+```
+
