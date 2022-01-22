@@ -1,0 +1,13 @@
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(waveslim)
+library(tibble)
+library(purrr)
+library(fields)
+library(MASS)
+
+library("Biobase")
+library("genefilter")
+library(STexampleData)
+library(SpatialExperiment)
