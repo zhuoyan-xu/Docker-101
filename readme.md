@@ -10,6 +10,11 @@ I previously just install packages one by one interactively on remote server (ss
 
 I first learned it through official [tutorial](https://docs.docker.com/get-started/), this tutorial is too general and (too be honest) not good for beginners. It writes Dockerfile not from scratch and biuld an front-end app using js file. I kinda lost in it. Then I found this [introduction to docker](https://carpentries-incubator.github.io/docker-introduction/), this is pretty helpful and concrete and beginner friendly! I know it through a workshop provided by [Datascience Hub](https://datascience.wisc.edu/hub/) at UW-madison. I didn't attend the workshop but turns out to find this fantastic tutorial.
 
+After the first 6 sections of docker tutorial, I started to look into CHTC's docker tutorial: 
+ - [Explore and test docker container](https://chtc.cs.wisc.edu/uw-research-computing/docker-test.html)
+ - [Building a docker container image](https://chtc.cs.wisc.edu/uw-research-computing/docker-build.html)
+ - [Run HTC jobs using docker containers](https://chtc.cs.wisc.edu/uw-research-computing/docker-jobs.html)
+
 Here are some notes I have, mainly for myself recheck:
 
 __Image__ is like a environment, __container__ is like a slight weight virtual machine.
