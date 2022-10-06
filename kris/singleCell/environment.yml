@@ -1,0 +1,23 @@
+name: single-cell-env
+
+channels:
+  - conda-forge
+  - pytorch
+  - anaconda
+  
+dependencies:
+  - ipykernel=5.3
+  - ipython=7.13
+  - matplotlib=3.1
+  - seaborn
+  - pandas=1.0
+  - pip=20.0
+  - python=3.8
+  - scikit-learn=0.22
+  - numpy=1.18.5
+  - cudatoolkit=10.2
+  - pytorch=1.4
+  - scikit-image=0.16
+  - scikit-learn=0.22
+  - tensorboard=2.1
+  - torchvision=0.5
