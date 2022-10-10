@@ -5,7 +5,7 @@
 make sure dir contains the correct Dockerfile
 
 ```
-docker build -t zhuoyanxu/single_cell  .
+docker build -t zhuoyanxu/single_cell:TAG  .
 ```
 
 
@@ -13,7 +13,7 @@ Explore the docker image we created
 First open a interactive shell:
 
 ```
-docker run --rm=true -it zhuoyanxu/single_cell bash
+docker run --rm=true -it zhuoyanxu/single_cell:TAG bash
 ```
 
 Then find out which packages are available:
@@ -39,7 +39,7 @@ docker run --user $(id -u):$(id -g) --rm=true -it \
 
  -v $(pwd):/scratch -w /scratch \
 
- zhuoyanxu:single_cell /bin/bash
+ zhuoyanxu/single_cell /bin/bash
 ```
 
 ### test on chtc

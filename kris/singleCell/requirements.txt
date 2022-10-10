@@ -7,4 +7,6 @@ pip
 scikit-learn
 numpy
 torch
+h5py
+hdf5plugin
 
