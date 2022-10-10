@@ -5,7 +5,7 @@
 make sure dir contains the correct Dockerfile
 
 ```
-docker build -t zhuoyanxu:single_cell  .
+docker build -t zhuoyanxu/single_cell  .
 ```
 
 
@@ -13,7 +13,7 @@ Explore the docker image we created
 First open a interactive shell:
 
 ```
-docker run --rm=true -it zhuoyanxu:single_cell bash
+docker run --rm=true -it zhuoyanxu/single_cell bash
 ```
 
 Then find out which packages are available:
